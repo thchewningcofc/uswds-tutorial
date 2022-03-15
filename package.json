@@ -11,6 +11,9 @@
     "test": "snyk test"
   },
   "devDependencies": {
-    "snyk": "^1.704.0"
+    "@uswds/compile": "file:../../uswds/uswds-compile/uswds-compile-1.0.0-beta.1.tgz",
+    "@uswds/uswds": "file:../../uswds/uswds/uswds-uswds-3.0.0-beta.4.tgz",
+    "snyk": "^1.704.0",
+    "uswds": "^2.13.2"
   }
 }
