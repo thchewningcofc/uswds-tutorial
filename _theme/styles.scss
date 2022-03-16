@@ -20,7 +20,7 @@
 
 // ...or import custom theme settings.
 
-@use "uswds-theme";
+@import "uswds-theme";
 
 // -------------------------------------
 // Import individual USWDS packages...
@@ -78,9 +78,9 @@
 // -------------------------------------
 // ...or import the complete USWDS kit
 
-@use "uswds";
+@import "uswds";
 
 // -------------------------------------
 // Import theme custom styles
 
-@use "uswds-theme-custom-styles";
+@import "uswds-theme-custom-styles";
