@@ -8,8 +8,14 @@
     "serve": "npx @11ty/eleventy --serve",
     "test": "snyk test"
   },
+  "dependencies": {
+    "@uswds/uswds": "3.7.1" // [or another version number]
+  },
   "devDependencies": {
     "snyk": "^1.1069.0",
     "@11ty/eleventy": "^2.0.0-canary.23"
-  }
+  },
+  "description": "A tutorial project to learn about installing, compiling, and customizing with USWDS.",
+  "version": "1.0.0",
+  "main": ".eleventy.js"
 }
